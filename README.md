@@ -4,15 +4,15 @@
 This C/C++ program simulates cache behavior based on various parameters, allowing customization for cache size, block size, associativity, replacement policy, and write policy. The simulation takes input from a configuration file (`cache.config`) and an access sequence file (`cache.access`) present in the same directory, providing information about cache hits or misses, set indices, and stored tags.
 
 ## Supported Features
-The implementation covers all parts of the problem statement, with each part contributing to the overall weightage:
+The implementation covers:
 
-1. **Part-1 (30%):** Supports read access modeling for a direct-mapped cache with FIFO replacement policy.
+1. Supports read access modeling for a direct-mapped cache with FIFO replacement policy.
 
-2. **Part-2 (20%):** Part 1 + LRU and RANDOM replacement policies.
+2. LRU and RANDOM replacement policies.
 
-3. **Part-3 (25%):** Part 2 + cache with associativity.
+3. Cache with associativity.
 
-4. **Part-4 (25%):** Part 3 + write access modeling.
+4. Write access modeling.
 
 ## Usage
 Follow the instructions below to compile and execute the code:
